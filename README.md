@@ -6,6 +6,8 @@ We built this basic web site / web app so that people had one place to find info
 It was built as a hobby project and is both rough around the edges and over-engineered for what it is doing.
 We like the choices because we're comfortable with them, or using this as an opportunity to learn.
 
+![Screenshot](./takeaway.png)
+
 ## Development
 
 Make changes to the code as needed on your local machine. Running the server for development is best done with docker, although this makes rails commands longer to type, e.g. `docker-compose exec web bin/rails db:migrate db:seed` instead of `bin/rails db:migrate`.
